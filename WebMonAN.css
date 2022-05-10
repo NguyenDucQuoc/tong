@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.wrapper{
+    width: 980px;
+    margin: auto;
+}
+.logo{
+     height: 70px;
+    display: flex;
+}
+.menu ul li{
+    float: left;
+    list-style: none;
+    line-height: 70px;
+    padding: 0px 15px;
+    
+}
+.menu ul li a{
+    font-size: 18px;
+    color: #0f0f63;
+    text-decoration: none;
+    display: block;
+
+}
+.dk{
+display: flex;
+margin-top: 25px;
+
+}
+
+input#dk{
+    width: 90px;
+    height: 20px;
+    color: antiquewhite;
+    background-color: rgb(2, 2, 12);
+    border: 0.5px solid white;
+    display: block;
+    margin-left: 65px;
+}
+.dn{
+    margin-left: 1000px;
+    line-height: auto;
+    border: 0.5px solid white;
+}
+input#dn{
+    width: 90px;
+    height: 20px;
+    color: antiquewhite;
+    background-color: rgb(2, 2, 12);
+    
+}
+.banner{
+    width: 980px;
+    height: 350px;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+aside{
+    font-family: monospace;
+    margin-top: 30px;
+    min-height: 400px;
+    width: 25%;
+    background-color: cyan;
+    float: left;
+    font-size: 18px;
+}
+article{
+    font-family: monospace;
+    font-size: 16px;
+    margin-top: 30px;
+    width: 75%;
+    float: left;
+    background-color: cyan;
+    min-height: 400px;
+}
+article img{
+    height: 150px;
+    width: 220px;
+    border-radius: 10px;
+}
+.monan{ 
+    float: left;
+    margin-right: 25px;
+
+}
+.monan1{
+    float: left;
+    margin-right: 300px;
+}
+.menu ul li a:hover{
+    background: red;
+    margin-left: 10px;
+    
+}
+.banner img:hover{
+    opacity: 0.85;
+}
+.monan img:hover{
+    opacity: 0.80;
+}
+.monan1 img:hover{
+    opacity: 0.80;
+}
+.menu ul li a:hover{
+    text-decoration: underline;
+}
+input#dk:hover{
+    background: red; 
+}
+.monan p {
+    color:rgb(228, 15, 32)
+}
+.monan p{
+    color:rgb(228, 15, 32)
+}

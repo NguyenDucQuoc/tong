@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        function Tong(a, b) {
+            s = a+b;
+            return s;
+        }
+            function Hieu(a, b){ 
+                return a-b;
+        }              
+            function HienThi (a, b, p){ 
+                if (p=="T")       
+                document.writeln(a+"+"+b+""+Tong (a, b)+"<br/>");
+                if (p=="H") 
+                document.writeln(a+"-"+b+"="+Hieu (a, b)+"<br/>");
+        }
+            HienThi (4, 5, "T");
+            HienThi (4, 5, "H");
+    </script>
+</body>
+</html>
